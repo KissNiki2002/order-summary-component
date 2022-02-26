@@ -1,0 +1,119 @@
+body{
+    font-family: 'Red Hat Display', sans-serif ;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-size: 1440px;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 375px;
+    border-radius: 20px;
+    background-color: hsl(0,100%,100%);
+    /*background-color: hsl(225, 100%, 98%);*/
+    overflow: hidden;
+}
+
+h2{
+    font-weight: 800;
+    margin: 20px;
+    color: hsl(223, 47%, 23%);
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-size: 15px;    
+}
+
+.first-paragraph{
+    font-weight: 400;
+    color: hsl(224, 23%, 55%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    line-height: 175%;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    margin-bottom: 25px;    
+}
+
+/*.left-side{
+    margin-left: 55px;
+}*/
+
+.middle-part{
+    margin-left: 10px;
+}
+
+.first{
+    color:hsl(223, 47%, 23%);
+    font-weight: 800;
+    /*margin-bottom: 5px;*/
+}
+
+.price{
+    font-weight: 400;
+    color: hsl(224, 23%, 55%);
+}
+
+div.right-part>a:active, div.right-part>a:hover{
+    cursor:pointer;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+
+
+.accept{
+    background-color: hsl(245, 75%, 52%);
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    display: inline-block;
+    border: none;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 10px;
+    justify-content: center;
+    width: 275px;
+    margin-left:50px;
+    box-shadow: 10px 10px 5px hsl(225, 100%, 94%);
+}
+
+button:active, button:hover{
+    background-color: hsla(245, 75%, 52%, 0.534);
+    cursor: pointer;
+}
+
+.cancel{
+    color: hsl(224, 23%, 55%);
+    margin-top: 30px;
+    margin-bottom: 35px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+div.cancel>p:active, div.cancel>p:hover{
+    cursor:pointer;
+    color: hsl(223, 47%, 23%);
+}
